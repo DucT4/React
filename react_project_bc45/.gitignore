@@ -1,0 +1,3 @@
+#file loại bỏ các folder, file, đưa lên git
+/node_modules
+
