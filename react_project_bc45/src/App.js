@@ -32,6 +32,7 @@ import DetailsProduct from './pages/LifeCycleDemo/DetailsProduct';
 import DemoRedux from './DemoRedux/DemoRedux';
 import TangGiamFontSize from './DemoRedux/TangGiamFontSize';
 import DemoRegister from './DemoRegister/DemoRegister';
+import Cart from './pages/Cart';
 
 
 export default class App extends Component {
@@ -53,6 +54,7 @@ export default class App extends Component {
             <Route path='demo-redux' element={<DemoRedux />}></Route>
             <Route path='demo-redux2' element={<TangGiamFontSize />}></Route>
             <Route path='demo-register' element={<DemoRegister />}></Route>
+            <Route path='cart' element={<Cart />}></Route>
 
           </Route>
           <Route path="*" element={<Navigate to={'/'} />}></Route>

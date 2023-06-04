@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import arrUserReducer from './arrUserReducer';
+import cartReducer from './cartReducer';
 import { userRegisterReducer } from './userRegisterReducer';
 
 export const store = configureStore({
@@ -27,6 +28,7 @@ export const store = configureStore({
             return state
         },
         userRegisterReducer:userRegisterReducer,
-        arrUserReducer : arrUserReducer
+        arrUserReducer : arrUserReducer,
+        cartReducer:cartReducer
     }
 });

@@ -24,7 +24,6 @@ class DemoRedux extends Component {
                         };
                         this.props.dispatch(action);
                         //dùng this.dispatch để đưa dữ liệu lên reducer
-                        this.props.dispatch(action);
                     }}>ChangeIMG</button>
                     <i className='fa fa-heart fs-3 text-danger m-2' style={{
                         cursor: 'pointer'
