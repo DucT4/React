@@ -29,6 +29,9 @@ import HomeTemPlates from './templates/HomeTemPlates';
 import ProductManagement from './pages/DemoForm/ProductManagement';
 import LifeCycleDemo from './pages/LifeCycleDemo/LifeCycleDemo';
 import DetailsProduct from './pages/LifeCycleDemo/DetailsProduct';
+import DemoRedux from './DemoRedux/DemoRedux';
+import TangGiamFontSize from './DemoRedux/TangGiamFontSize';
+import DemoRegister from './DemoRegister/DemoRegister';
 
 
 export default class App extends Component {
@@ -47,6 +50,10 @@ export default class App extends Component {
             <Route path="form" element={<ProductManagement />}></Route>
             <Route path="giohang" element={<BaiTapGioHang />} ></Route>
             <Route path='lifecycledemo' element={<LifeCycleDemo />}></Route>
+            <Route path='demo-redux' element={<DemoRedux />}></Route>
+            <Route path='demo-redux2' element={<TangGiamFontSize />}></Route>
+            <Route path='demo-register' element={<DemoRegister />}></Route>
+
           </Route>
           <Route path="*" element={<Navigate to={'/'} />}></Route>
 

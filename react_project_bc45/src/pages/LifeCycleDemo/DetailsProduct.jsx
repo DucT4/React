@@ -8,7 +8,7 @@ export default class DetailsProduct extends Component {
     productDetail: {
 
     }
-  }
+  } 
 
   render() {
     return (

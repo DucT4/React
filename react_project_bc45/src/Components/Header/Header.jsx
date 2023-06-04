@@ -29,10 +29,11 @@ export default class Header extends Component {
                             <NavLink className={({ isActive }) => isActive ? 'nav-link bg-white text-dark' : 'nav-link'} to="/lifecycledemo">Life cycle</NavLink>
                         </li>
                         <li className="nav-item dropdown">
-                            <NavLink className="nav-link dropdown-toggle" to="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</NavLink>
+                            <NavLink className="nav-link dropdown-toggle" to="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Redux</NavLink>
                             <div className="dropdown-menu" aria-labelledby="dropdownId">
-                                <NavLink className="dropdown-item" to="#">Action 1</NavLink>
-                                <NavLink className="dropdown-item" to="#">Action 2</NavLink>
+                                <NavLink className="dropdown-item" to="/demo-redux">Demo Redux</NavLink>
+                                <NavLink className="dropdown-item" to="/demo-redux2">Tang giam fs</NavLink>
+                                <NavLink className="dropdown-item" to="/demo-register">Register</NavLink>
                             </div>
                         </li>
                     </ul>
